@@ -9,9 +9,14 @@ export default function Home() {
         <p className="text-lg text-gray-300">
           Query and search for different titles based off your desired criteria.
         </p>
-        <Link href="/query">
+        <Link href="/query" className="block">
           <button className="px-5 py-2.5 bg-[#1b2838] text-[#66c0f4] rounded hover:bg-[#2a475e] transition-colors duration-200">
-            Query Titles
+            Search titles From Steam
+          </button>
+        </Link>
+        <Link href="/account-query" className="block">
+          <button className="px-5 py-3.5 bg-[#1b2838] text-[#66c0f4] rounded hover:bg-[#2a475e] transition-colors duration-200">
+            Search titles from your Steam Account
           </button>
         </Link>
       </div>
